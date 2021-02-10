@@ -1,5 +1,17 @@
 body {
 	background: #ffffe0;
-	font-family: fantasy;
-	font-style: normal; 
+	font-family: Georgia, serif;
+	font-style: italic; 
+	
 }
+
+	h2 {
+		font-size: 17 px;
+		border: dashed red;
+	}
+	
+	a { 
+	color: #ff0000;
+	text-decoration: italic;
+	}
+	
