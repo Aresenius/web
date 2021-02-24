@@ -6,7 +6,16 @@ body {
 	text-decoration: italic;
 	
 }
+}
 
+h1 {
+	font-family: "Serif";
+	font-size: 70px;
+	color: coral;
+	border-bottom: solid blue;
+	margin-left: 30%;
+	margin-right: 30%;
+}
 	h2 {
 		font-size: 17 px;
 		border: dashed red;
