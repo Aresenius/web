@@ -11,7 +11,8 @@ h2 {
 		font-size: 17 px;
 		border: dashed red;
 }
-
+	* { box-sizing: border-box; }
+	
 .container {
 	width: 80%;
 	margin: 0 auto;
@@ -21,6 +22,7 @@ header {
 }
 nav {
 	float: middle;
+	text-align: center;
 }
 nav ul {
 	margin: 0;
@@ -31,12 +33,6 @@ nav li {
 display: inline-block;
 margin: 0 45px;
 }
-
-
-	
-	
-
-	* { box-sizing: border-box; }
 .video-background {
   background: #000;
   position: fixed;
@@ -73,3 +69,5 @@ margin: 0 45px;
 .vid-info .acronym { display: none; }
 }
 
+
+	
