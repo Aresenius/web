@@ -47,3 +47,24 @@ h2 {
 @media all and (max-width: 500px) {
 .vid-info .acronym { display: none; }
 }
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+	
+header {
+	background: #FFDBEA;
+}
+nav {
+	float: middle;
+}
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+nav li { 
+display: inline-block;
+margin: 0 45px;
+}
+	
