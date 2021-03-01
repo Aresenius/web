@@ -7,11 +7,49 @@ body {
 	
 }
 
-h2 {
-		font-size: 17 px;
-		border: dashed red;
+h1 { 
+    font-size: 45px;
+    color: #FFADAD;
+  text-align: center;
+  text-shadow: -1px 0 white, 0 1px #840404, 8px 0 #840404, 0 -1px #840404;
+  
 }
 
+
+h2 {
+		font-size: 17 px;
+		border: 8px double white;
+  background: red;
+  color: #FFDBEA;
+  text-align: center;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border: 5px solid red;
+  float: center;
+  
+}
+
+
+h3 {
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  text-decoration: underline;
+}
+
+p {
+  text-decoration: none;
+    color: #FFDBEA;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 25px;
+
+}
 	* { box-sizing: border-box; }
 .video-background {
   background: #000;
@@ -49,5 +87,38 @@ h2 {
 .vid-info .acronym { display: none; }
 }
 
+}.container {
+	width: 80%;
+	margin: 0 auto;
+}	
+header {
+	background: #FFDBEA;
+  border: 4px solid red;
+}
+nav {
+	float: middle;
+	text-align: center;
+}
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+nav li { 
+display: inline-block;
+margin: 0 45px;
+padding-top: 15px;
+padding-bottom: 15px;
+}
 
-	
+nav a {
+  color: #840404;
+  text-decoration: none;
+  font: small-caps 24px/1 cu; 
+  font-size: 20px;  
+}
+
+nav a:hover {
+  color: #840404;
+}
+
